@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*color #dad7cd,#a3b18a,#588157,#3a5a40,#344e41*/
+
+:root {
+    --z-fixed: 100;
+}
+
+body {
+    background-color: #344e41;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*navbar*/
+
+nav {
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.nav-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.nav-conteiner h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-ul-div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-ul a {
+    color: black;
+}
+
+/*fin navbar*/
+
+/*section home*/
+
+.st-home {
+    padding-top: 180px;
+    padding-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(./font.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.st-home-card {
+    border-radius: 30px;
+    text-align: center;
+}
+
+.st-home-card-blur {
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.st-home-card-h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.st-home-card-h11 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.st-home-card p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*fin home*/
+
+/*section stream*/
+
+.st-stream {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 160px 150px;
+}
+
+.streamer {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-image: url(./font.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.streamer img {
+    max-height: 380px;
+    padding-bottom: 10px;
+}
+
+.streamer-button button {
+    border-radius: 5px;
+    font-size: 20px;
+    border-top-style: none;
+}
+
+/* CSS */
+.streamer-button button {
+    background-color: #e52d27;
+    border: 1px solid #e52d27;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 1s;
+  }
+
+  .streamer-button a {
+    color: #fff;
+  }
+  
+  .streamer-button button:hover {
+    background-color: #ea5752;
+    border: 1px solid #ea5752;
+  }
+  
+  .streamer-button button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .streamer-button button:focus-visible {
+    box-shadow: none;
+  }
+
+/*fin stream*/
+
+/*histoire*/
+
+.st-histoire {
+    padding: 110px 0px;
+    text-align: center;
+}
+
+.st-histoire h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.st-histoire p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.st-histoire-div {
+    padding: 64px 200px;
+}
+
+/*fin histoire*/
+
+/*source*/
+
+.st-Source {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    padding-left: 64px;
+    padding-right: 64px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.st-source-grid-1 {
+    background-image: url(./mods.webp);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    padding: 80px 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.st-source-grid-2 {
+    background-image: url(./map.webp);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    padding: 80px 150px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.st-Source-div {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hello {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}

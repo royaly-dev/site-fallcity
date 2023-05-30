@@ -1,0 +1,156 @@
+
+* {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --z-fixed: 100;
+}
+
+body {
+    background-color: #344e41;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*navbar*/
+
+nav {
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.nav-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.nav-conteiner h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-ul-div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-ul a {
+    color: black;
+}
+
+/*fin navbar*/
+
+/*section map title*/
+
+.st-map-title {
+    text-align: center;
+    padding-top: 180px;
+}
+
+.st-map-title h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+/*fin map title*/
+
+/*section map présentation*/
+
+.st-map-pres {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin: 160px 100px;
+}
+
+.map-pres {
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #588157;
+    padding: 50px 60px;
+}
+
+.map-pres h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.map-pres p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* CSS */
+.map-button button {
+    background-color: #a3b18a;
+    border: 1px solid #a3b18a;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 1s;
+  }
+
+  .map-button a {
+    color: #fff;
+  }
+  
+  .map-button button:hover {
+    background-color: #dad7cd;
+    border: 1px solid #dad7cd;
+  }
+  
+  .map-button button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .map-button button:focus-visible {
+    box-shadow: none;
+  }
+
+  .map-button a {
+    color: rgb(28, 26, 26);
+  }
+  
+/*fin map présentation*/
