@@ -73,16 +73,6 @@
             </div>
         </div>
     </section>
-        <script>
-            $.getJSON("")
-            .done(addstream)
-            .fail(function(){
-                console.log("ereur lors de la récupération de statut");
-            })
-
-            function addstream(data){
-                $("#nekoImg").attr("src", data.url);
-            }
-        </script>
+        <script src="./asset/index.js"></script>
 </body>
 </html>
