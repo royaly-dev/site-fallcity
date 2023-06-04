@@ -1,0 +1,19 @@
+{
+  "name": "site-fallcity",
+  "version": "1.0.0",
+  "description": "fallcity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royalygames/site-fallcity.git"
+  },
+  "author": "royaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royalygames/site-fallcity/issues"
+  },
+  "homepage": "https://github.com/royalygames/site-fallcity#readme"
+}
