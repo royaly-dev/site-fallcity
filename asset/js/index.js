@@ -16,7 +16,7 @@ function addStream(data){
 
 const streamkirby = `
 <h1>KIRBY 360</h1>
-<img src="./asset/kirby.png" alt="">
+<img src="./asset/img/kirby.png" alt="">
 <div class="streamer-button">
     <button><a href="">Twitch</a></button>
     <button><a href="">Youtube</a></button>
@@ -26,7 +26,7 @@ const streamkirby = `
 const streamkirbyOnline = `
 <h1>En ligne</h1>
 <h1>KIRBY 360</h1>
-<img src="./asset/kirby.png" alt="">
+<img src="./asset/img/kirby.png" alt="">
 <div class="streamer-button">
     <button><a href="">Twitch</a></button>
     <button><a href="">Youtube</a></button>
@@ -36,7 +36,7 @@ const streamkirbyOnline = `
 const streamkirbyOffline = `
 <h1>hort ligne</h1>
 <h1>KIRBY 360</h1>
-<img src="./asset/kirby.png" alt="">
+<img src="./asset/img/kirby.png" alt="">
 <div class="streamer-button">
     <button><a href="">Twitch</a></button>
     <button><a href="">Youtube</a></button>
@@ -76,7 +76,7 @@ function checkValue(online1) {
     
     const streamera = `
     <h1>ERAFLY</h1>
-    <img src="./asset/era.png" alt="">
+    <img src="./asset/img/era.png" alt="">
     <div class="streamer-button">
         <button><a href="">Twitch</a></button>
         <button><a href="">Youtube</a></button>
@@ -86,7 +86,7 @@ function checkValue(online1) {
     const streameraOnline = `
     <h1>En ligne</h1>
     <h1>ERAFLY</h1>
-    <img src="./asset/era.png" alt="">
+    <img src="./asset/img/era.png" alt="">
     <div class="streamer-button">
         <button><a href="">Twitch</a></button>
         <button><a href="">Youtube</a></button>
@@ -96,7 +96,7 @@ function checkValue(online1) {
     const streameraOffline = `
     <h1>hort ligne</h1>
     <h1>ERAFLY</h1>
-    <img src="./asset/era.png" alt="">
+    <img src="./asset/img/era.png" alt="">
     <div class="streamer-button">
         <button><a href="">Twitch</a></button>
         <button><a href="">Youtube</a></button>
